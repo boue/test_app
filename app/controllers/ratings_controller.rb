@@ -1,5 +1,5 @@
 class RatingsController < ApplicationController
-  before_action :set_rating, only: [:show, :edit, :update, :destroy]
+  before_action :set_rating, only: [:show, :edit, :update, :destroy, :vote]
 
   # GET /ratings
   # GET /ratings.json
